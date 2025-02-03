@@ -42,5 +42,8 @@ print(message[-3],message[-3])
 #string slicing
 mytext="Fullstack"
 print(mytext[0:4]) #full
-print(mytext[4:9]) #stack
+print(mytext[4:]) #stack
 print(mytext[0:5]) #fulls
+#replace
+sentence="I love html"
+print(sentence.replace("html","python"))
