@@ -7,3 +7,8 @@ z=10.67
 new2=int(z)
 print(new2)
 print(type(new2))
+#convert integer to complex
+x=34
+new3=complex(x)
+print(new3)
+print(type(new3))
