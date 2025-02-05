@@ -22,7 +22,11 @@ print(student)
 student.pop("city")
 print(student)
 #loop through the keys
+for z in student.keys():
+    print(z)
 #loop through the values
+for y in student.values():
+    print(y)
 #Loop through keys and values using items method
-for x,y in student.items():
-    print(x,y)
+for x in student.items():
+    print(x)
