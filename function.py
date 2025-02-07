@@ -13,3 +13,14 @@ hello("Kim",67)
 def areaofrect(l,w):
     print("The area of a rectangle is",l*w)
 areaofrect(34,23)
+#A function with a return keyword
+def functionex(x):
+    return 2*x
+y=functionex(2)
+print(y)
+#function with default parameter
+def mycourse(name="python"):
+    print("i am learning ",name)
+mycourse("html")
+mycourse()
+mycourse("django")

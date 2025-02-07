@@ -1,0 +1,6 @@
+#A function that finds the maximum of two numbers
+def findmax(num1,num2):
+    return max(num1,num2)
+print(findmax(400,20))
+#A function that checks if a number is even
+#A function that prints the area of a circle
