@@ -30,3 +30,9 @@ for x in users:
     if x=="Nelson":
         break
     print(x)
+#continue
+#skip a user and continue with the next user
+for x in users:
+    if x=="Jane":
+        continue
+    print(x)
