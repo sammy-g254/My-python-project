@@ -3,4 +3,21 @@ def findmax(num1,num2):
     return max(num1,num2)
 print(findmax(400,20))
 #A function that checks if a number is even
+def even(x):
+    if x%2 == 0:
+        return "even"
+    else:
+        return "odd"
+print(even(3))
 #A function that prints the area of a circle
+def circle_area(radius):
+    if radius < 0:
+        print("Radius cannot be negative.")
+    else:
+        area = 3.14 * radius ** 2
+        print(f"The area of the circle with radius {radius} is {area}")
+circle_area(-4)
+#A function that adds two numbers
+def add(num1,num2):
+    return num1 + num2
+print(add(50,80))
