@@ -12,6 +12,9 @@ class employee:
         print(f"Salary of {self.name} has been increased to {self.salary}")
     def get_annual_salary(self):
         return self.salary*12
+    def change_name(self, new_name):
+        self.name=new_name
+        print(f"Employee name changed to {new_name}")
 emp1 = employee("John", 25, 20000)
 emp2 = employee("Jane", 17, 30000)
 print(emp1.name)
@@ -22,3 +25,10 @@ print(emp2.age)
 emp1.display_info()
 emp1.increase_salary(15000)
 print(f"The annual salary of {emp1.name} is {emp1.get_annual_salary}")
+emp1.change_name("Barack")
+#
+class manager(employee):
+    pass
+mg1=manager("Jacob",29,90000)
+print(mg1.name)
+mg1.display_info()
