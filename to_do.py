@@ -10,6 +10,6 @@ class product:
         return f"{self.name} with the following properties"
     def discount(self,discount_percent):
         discount_amount=self.price * (discount_percent/100)
-        return self.price-discount_amountr
+        return self.price-discount_amount
 p1=product("laptop","Gaming laptop",2)
 print(f"discounted price: {p1.discount(15)}")
