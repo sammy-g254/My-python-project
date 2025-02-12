@@ -8,4 +8,8 @@ class product:
         self.net__price=net_price
     def product_info(self):
         return f"{self.name} with the following properties"
+    def discount(self,discount_percent):
+        discount_amount=self.price * (discount_percent/100)
+        return self.price-discount_amountr
 p1=product("laptop","Gaming laptop",2)
+print(f"discounted price: {p1.discount(15)}")
